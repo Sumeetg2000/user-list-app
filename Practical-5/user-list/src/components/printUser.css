@@ -1,0 +1,48 @@
+  .user{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    font-weight: 600;
+  }
+  .user img{
+      border-radius: 100%;
+      height: 8vh;
+  }
+.user .details{
+    margin: 2vh;
+    margin-right: 15vh;
+    width: 25vh;
+}
+.user p{
+    line-height: 0.1;
+    font-size: 1.8vh;
+    font-weight: 100;
+}
+.user p:first-of-type{
+    font-weight: 600;
+    letter-spacing: -.1vh;
+}
+.statusBlock span.active{
+    color: #258b2d;
+}
+.statusBlock .status, .accessBlock .access{
+    padding: .6vh;
+    font-size: 1.7vh;
+    background-color: #eaeef0;
+    border: none;
+    border-right: .8vh solid transparent;
+}
+.statusBlock .status:focus, .accessBlock .access:focus{
+    outline: none;
+}
+.statusBlock, .accessBlock{
+    width: 25vh;
+}
+span.icon{
+    color: #a8a8ac;
+    width: 1vh;
+}
+
+.details:hover ~ .card, .avatar:hover ~ .card{
+    display: block;
+}
