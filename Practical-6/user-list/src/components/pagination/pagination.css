@@ -1,0 +1,17 @@
+.pagination .page {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    border: 0px outset;
+    margin-left: 2vh;
+    background-color: #343A40;
+    font-size: 2vh;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px 0 #5a5858, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pagination .page.selected {
+    background-color: rgb(62, 221, 221);
+    color: #343A40;
+}
