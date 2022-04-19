@@ -1,0 +1,95 @@
+*{
+    margin-bottom: 1vh;
+}
+.card{
+    min-width: 35vh;
+    background-color: white;
+    border-radius: 8%;
+    height: 50vh;
+    position: absolute;
+    right: -10vh;
+    top: 14vh;
+    display: none;
+    box-shadow: 0 4px 8px 0 #f5f5f5, 2px 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.visible.card{
+    display: block;
+}
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardDiv img{
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+}
+.cardDiv p{
+    line-height: 0.1;
+    font-size: 1.8vh;
+}
+.cardDiv .status{
+    font-size: 3vh;
+    color: gray;
+}
+.cardDiv p .status.active{
+    color: rgb(6, 107, 6);
+}
+.cardDiv p.email{
+    color: gray;
+}
+.cardDiv p.plan{
+    font-weight: 600;
+}
+.cardDiv .userStatus{
+    margin-top: 2vh ;
+    margin-bottom: 1vh;
+    padding: .9vh 3.6vh;
+    font-size: 1.6vh;
+    color: white;
+    background-color: #FEB23E;
+    border: none;
+    border-radius: 8%;
+    font-weight: 600;
+}
+.planUse{
+    width: 80%;
+    font-size: 1vh;
+    word-spacing: .5vh;
+}
+.planUse .line{
+    border: .4vh solid rgba(0, 0, 0, 0.2);
+    margin-top: 2.2vh;
+    width: 100%;
+    border-color: transparent;
+    background-image:linear-gradient(to right, #FEB23E, white);
+    outline: none;
+    border-radius: 5%;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vh ;
+}
+.reviews{
+    margin-right: 2.5vh;
+}
+.cardFooter .number{
+    font-size: 4.2vh;
+    margin-bottom: 4vh;
+}
+.cardFooter .footerText{
+    color: gray;
+    font-size: 1.8vh;
+}
+.cardFooter .vl{
+    margin-top: 4vh;
+    margin-right: 3vh;
+    border-left: .2vh solid rgba(128, 128, 128, 0.534);
+    height: 5.2vh;
+}
